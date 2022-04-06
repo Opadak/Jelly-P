@@ -691,3 +691,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1932.296244 seconds.
+  path: Assets/Macros/Scrolling.asset
+  artifactKey: Guid(d69e620fddf1d47e4bf0684228f5c189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Macros/Scrolling.asset using Guid(d69e620fddf1d47e4bf0684228f5c189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dd03eeb972ee0e196d2e85e54a01b2') in 1.462868 seconds 
+  Import took 1.596629 seconds .
+
