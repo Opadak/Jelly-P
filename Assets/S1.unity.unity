@@ -711,6 +711,10 @@ MonoBehaviour:
   - {x: -3, y: -1, z: 1}
   - {x: 0, y: 0, z: 0}
   - {x: 3, y: -1, z: -1}
+  LevelAc:
+  - {fileID: 9100000, guid: 8c7845f2d3a629943afc1519da279300, type: 2}
+  - {fileID: 9100000, guid: cf4db5108a8b1874692fcde7c19517c8, type: 2}
+  - {fileID: 9100000, guid: 0d3842a994495234589cb6d54c1215e2, type: 2}
 --- !u!4 &355644077
 Transform:
   m_ObjectHideFlags: 0
@@ -723,7 +727,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &356407106
 GameObject:
@@ -871,7 +875,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &423471390
 GameObject:
@@ -903,7 +907,7 @@ Transform:
   - {fileID: 25631389}
   - {fileID: 2095576065}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &632893774
 GameObject:
@@ -1408,7 +1412,7 @@ Animator:
   m_GameObject: {fileID: 768356531}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0d3842a994495234589cb6d54c1215e2, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8c7845f2d3a629943afc1519da279300, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1481,7 +1485,7 @@ Transform:
   m_Children:
   - {fileID: 1428695974}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &768356535
 MonoBehaviour:
@@ -1512,7 +1516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"SpeedX","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"SpeedY","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"ID","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Level","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"ID","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Level","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Exp","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"SpeedX","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"SpeedY","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!58 &768356537
 CircleCollider2D:
@@ -2049,7 +2053,7 @@ RectTransform:
   - {fileID: 1562676479}
   - {fileID: 656793624}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
