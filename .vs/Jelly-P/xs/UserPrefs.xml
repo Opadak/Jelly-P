@@ -1,7 +1,7 @@
-﻿<Properties StartupConfiguration="{593E660F-F53F-03A6-76BD-412D15192136}|">
+﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/GameManager.cs">
     <Files>
-      <File FileName="Assets/Script/GameManager.cs" Line="14" Column="1" />
+      <File FileName="Assets/Script/GameManager.cs" Line="11" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
