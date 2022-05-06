@@ -6,7 +6,15 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Jelly-P" expanded="True" selected="True" />
+          <Node name="Jelly-P" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Script" expanded="True">
+                  <Node name="GameManager.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
