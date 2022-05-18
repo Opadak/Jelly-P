@@ -16,6 +16,6 @@ public class GameManager : MonoBehaviour
     public void ChangeAc(Animator anim, int level)
     {
         anim.runtimeAnimatorController = LevelAc[level-1];
-
+        Debug.Log(level);
     }
 }
